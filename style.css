@@ -48,6 +48,13 @@ header h1 {
     color: #212529;
 }
 
+/* 针对 header 中的 a 标签进行设置 */
+header a {
+    text-decoration: none; /* 去掉下划线 */
+    color: inherit;       /* 继承父元素的颜色（如果 h1 是黑色，链接就是黑色） */
+}
+
+
 .subtitle {
     font-size: 1.1rem;
     color: #6c757d;
@@ -181,8 +188,3 @@ footer {
     }
 }
 
-/* 针对 header 中的 a 标签进行设置 */
-header a {
-    text-decoration: none; /* 去掉下划线 */
-    color: inherit;       /* 继承父元素的颜色（如果 h1 是黑色，链接就是黑色） */
-}
